@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 body{
-    background: url("./backimg.jpg");
+    background: url("./fotoback.jpg");
     background-size: cover;
+   
+}
+body{
+    width: 100%;
+    height: 100%;
       
 }
   
@@ -13,9 +18,9 @@ body{
       text-align: center;
       padding: 2%;
       margin: 0 auto;
-      border-radius: 50px 50px;
+      /* border-radius: 50px 50px;
       border: 5px solid rgba(255, 0, 0, 0.541);
-      border-top: none;
+      border-top: none; */
   }
   
    h1{
@@ -40,8 +45,8 @@ body{
       background-color: #1e06f348 ;
       font-family: 'Share Tech', sans-serif;
       font-size: larger;
-      border-radius: 50px ;
-      border: 5px solid black;
+      /* border-radius: 50px ;
+      border: 5px solid black; */
   }
   
   .footerContainer{
@@ -62,3 +67,10 @@ body{
 
 .footerContainer a:hover{
     color: white
+
+}
+
+.footerContainer {
+    width: 190px;
+    margin-top: 300px;
+}
