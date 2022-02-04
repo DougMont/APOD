@@ -2,7 +2,8 @@ let busca_btn = document.querySelector("#busca")
 
 //adicione um ouvinte de evento ao botão que executa a função paiNasa quando é clicado
 busca_btn.addEventListener("click", ()=>{
-    console.log("button pressed")
+    event.preventDefault()
+    console.log("espaco")
     paiNasa()
 })
 
@@ -21,3 +22,4 @@ function diaApi(data){
     document.querySelector("#conteudo").innerHTML += data.explanation
     document.querySelector("#conteudo").innerHTML += `<img src="${data.url}">`
 }
+
